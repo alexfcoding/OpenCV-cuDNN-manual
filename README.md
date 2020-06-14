@@ -29,6 +29,7 @@
 ### Check GPU:
 	nvidia-smi
 ### Install libraries:
+	$ sudo apt-get install build-essential cmake unzip pkg-config
 	$ sudo apt-get install libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
 	$ sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
 	$ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -72,8 +73,8 @@
 	$ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.3.0.zip
 	$ unzip opencv.zip
 	$ unzip opencv_contrib.zip
-	$ mv opencv-4.2.0 opencv
-	$ mv opencv_contrib-4.2.0 opencv_contrib
+	$ mv opencv-4.3.0 opencv
+	$ mv opencv_contrib-4.3.0 opencv_contrib
 ### Setup Python virtual environment:
 	$ wget https://bootstrap.pypa.io/get-pip.py
 	$ sudo python3 get-pip.py
@@ -88,7 +89,7 @@
 ### reload file:
 	$ source ~/.bashrc
 ### Create Python environment:
-	$ mkvirtualenv opencv_gpu -p python33
+	$ mkvirtualenv opencv_gpu -p python3
 	$ pip install numpy
 	$ workon opencv_gpu
 ### Find architecture version for your GPU:
