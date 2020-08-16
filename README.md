@@ -1,6 +1,6 @@
 # Compiling OpenCV with CUDA GPU acceleration in Ubuntu 20.04 LTS and Python virtual environment
-### Mask R-CNN example video
-[![Mask R-CNN example](previewYolo.jpg?raw=true)](https://youtu.be/JomFBZoPjaM "Mask R-CNN")
+### YOLO example video
+[![Mask R-CNN example](previewYolo.jpg?raw=true)](https://youtu.be/fQqg0Asfg7U "Mask R-CNN")
 
 *OS: Ubuntu 20.04 LTS*
 
