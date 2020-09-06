@@ -16,6 +16,7 @@
 
 *Python: 3.8*
 
+
 ### Update system:	
 	$ sudo apt-get update
 	$ sudo apt-get upgrade
@@ -43,10 +44,13 @@
 	$ cd ~
 	$ mkdir tempDir
 	$ cd tempDir/
-	$ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
+	$ wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux	
 	$ mv cuda_10.0.130_410.48_linux cuda_10.0.130_410.48_linux.run
 	$ chmod +x cuda_10.0.130_410.48_linux.run
 	$ sudo ./cuda_10.0.130_410.48_linux.run --override
+	
+[[OpenCV 4.3 + cuDNN 7.6.4 on Google Drive](https://drive.google.com/file/d/1ucPojrzvfFnibhfdVbeXJNRXRF3ODcDB/view?usp=sharing)]
+
 ### Bash setup:
 	$ nano ~/.bashrc
 ### Insert this at the bottom of profile:
@@ -60,6 +64,9 @@
 ### Download cuDNN v7.6.4, for CUDA 10.0:
 	https://developer.nvidia.com/rdp/cudnn-archive
 	"cuDNN Library for Linux"
+
+[[OpenCV 4.3 + cuDNN 7.6.4 on Google Drive](https://drive.google.com/file/d/1ucPojrzvfFnibhfdVbeXJNRXRF3ODcDB/view?usp=sharing)]
+
 ### Install cuDNN:
 	$ cd ~/tempDir
 	$ tar -zxf cudnn-10.0-linux-x64-v7.6.4.38.tgz
@@ -75,6 +82,9 @@
 	$ unzip opencv_contrib.zip
 	$ mv opencv-4.3.0 opencv
 	$ mv opencv_contrib-4.3.0 opencv_contrib
+	
+[[OpenCV 4.3 + cuDNN 7.6.4 on Google Drive](https://drive.google.com/file/d/1ucPojrzvfFnibhfdVbeXJNRXRF3ODcDB/view?usp=sharing)]
+
 ### Setup Python virtual environment:
 	$ wget https://bootstrap.pypa.io/get-pip.py
 	$ sudo python3 get-pip.py
